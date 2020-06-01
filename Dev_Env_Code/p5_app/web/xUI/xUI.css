@@ -1,0 +1,52 @@
+.UI {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  padding: 5px;
+  background-color: rgba(78, 80, 140, 0.475);
+  box-shadow: 0 0 3px 1px #000000;
+  border-radius: 3px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 10px;
+  align-items: center;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 17px;
+  color: white;
+  user-select: none;
+}
+.UI .btn {
+  background-color: #5a1515;
+}
+.UI .div-start {
+  grid-row-end: span 2;
+  grid-column-start: 6;
+  height: 100%;
+  line-height: 50px;
+  display: none;
+  background-color: #186b07;
+  width: 200px;
+}
+.UI .div-start.active {
+  display: block;
+}
+.UI .div-health-top {
+  min-height: 20px;
+  height: 100%;
+  width: 150px;
+  border-radius: 3px;
+  border: 2px solid black;
+  position: relative;
+}
+.UI .div-health-top .div-text {
+  position: absolute;
+  top: -1px;
+  left: 60px;
+  text-align: center;
+}
+.UI .div-health-top .div-health {
+  background-color: red;
+  width: 0%;
+  height: 100%;
+}

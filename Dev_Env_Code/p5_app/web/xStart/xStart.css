@@ -1,0 +1,59 @@
+.Start {
+  position: absolute;
+  justify-self: center;
+  align-self: center;
+  min-width: 50vw;
+  max-width: 90vw;
+  min-height: 50vh;
+  max-height: 80vh;
+  display: grid;
+  background-color: #121242;
+  border-radius: 3px;
+  box-shadow: 0 0 4px 2px #000000;
+  justify-items: center;
+  padding: 20px;
+  overflow-y: auto;
+}
+.Start .div-title {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 50px;
+}
+.Start .div-title-2 {
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 23px;
+  margin-bottom: 10px;
+}
+.Start .div-t-left {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.Start .div-center {
+  font-size: 15px;
+  line-height: 16px;
+}
+.Start .div-center li {
+  margin-top: 8px;
+}
+.Start .div-tut {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  gap: 15px;
+}
+.Start img {
+  box-shadow: 0 0 3px 1px #000000;
+  border-radius: 3px;
+  margin: 5px;
+}
+.Start .div-play {
+  margin-top: 15px;
+  align-self: center;
+  height: 50px;
+  width: 200px;
+  background-color: green;
+  font-size: 30px;
+  line-height: 40px;
+}
